@@ -2,13 +2,13 @@
 import './App.css';
 import PrimeiroComponente from './components/PrimeiroComponente';
 import SegundoComponente from './components/SegundoComponente';
+import Enviar from './components/TerceiroComponente';
 
 const App = () => {
   return (
-    <div className='App'>
-    <PrimeiroComponente/>
-    <SegundoComponente/>
-    </div>
+    <>
+    <Enviar/>
+    </>
   );
 } 
 
