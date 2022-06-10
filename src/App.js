@@ -1,9 +1,31 @@
+import "./App.css"
+import Contador from "./components/Contador";
+import Propriedades from "./components/Propriedades";
+// import Estado from "./components/Estado";
 
-import './App.css';
-import PrimeiroComponente from './components/PrimeiroComponente';
-import SegundoComponente from './components/SegundoComponente';
-import Enviar from './components/TerceiroComponente';
 
+
+
+const App = () => {
+  let nome = "Bruno"
+
+  return(
+    <div className="App">
+      {/* <Estado /> */}
+      {/* <Propriedades name={nome} idade={31} /> */}
+     <Contador meuNome={nome}/>
+    </div>
+  );
+}
+
+export default App;
+
+
+
+
+
+
+{/*
 const App = () => {
   return (
     <>
@@ -13,3 +35,4 @@ const App = () => {
 } 
 
 export default App;
+*/}
